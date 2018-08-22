@@ -1,0 +1,27 @@
+body {
+	margin; 0;
+	padding: 0;
+	background-color: #668ca6;
+}
+
+#container {
+	width: 800px;
+	height: 800px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 0;
+}
+.grid 
+{
+  color:#dd7127;
+  width: 100px;
+  height: 100px;
+}
+h2{
+	color:#dd7127;
+}
+h4{
+	color:#DD2727;
+}
+
+.menulinks{background-color: blue;}

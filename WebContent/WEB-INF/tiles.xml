@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+    <definition name="base.definition"  
+        template="/WEB-INF/jsp/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />  
+        <put-attribute name="menu" value="/WEB-INF/jsp/menu.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />  
+    </definition>  
+  
+     
+  
+    <definition name="hello" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/hello.jsp" />  
+    </definition> 
+    
+    <definition name="loginpage" extends="base.definition">  
+        <put-attribute name="title" value="Login" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/loginpage.jsp" />  
+    </definition>
+    
+    <definition name="RegisteredUser" extends="base.definition">  
+        <put-attribute name="title" value="Register" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/RegisteredUser.jsp" />  
+    </definition>
+    <definition name="home" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/home.jsp" />  
+    </definition>
+    
+    <definition name="manageprofile" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/manageprofile.jsp" />  
+    </definition>
+    
+    <definition name="uploadform" extends="base.definition">  
+        <put-attribute name="title" value="Home" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/uploadform.jsp" />  
+    </definition>
+     
+        <definition name="forgotpassword" extends="base.definition">  
+        <put-attribute name="title" value="Forgot Password" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/forgotpassword.jsp" />  
+    </definition>
+    
+    
+    <definition name="retrievePassword" extends="base.definition">  
+        <put-attribute name="title" value="Retrieving Password" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/retrievePassword.jsp" />  
+    </definition>
+     <definition name="invalidMailAddress" extends="base.definition">  
+        <put-attribute name="title" value="Invalid Password" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/invalidMailAddress.jsp" />  
+    </definition>
+    
+     <definition name="account" extends="base.definition">  
+        <put-attribute name="title" value="Account Information" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/account.jsp" />  
+    </definition>
+  
+   <definition name="notRegisteredMailAddress" extends="base.definition">  
+        <put-attribute name="title" value="Not Yet Registered" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/notRegisteredMailAddress.jsp" />  
+    </definition>
+    <definition name="about" extends="base.definition">  
+        <put-attribute name="title" value="About" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/about.jsp" />  
+    </definition>
+    <definition name="tc" extends="base.definition">  
+        <put-attribute name="title" value="TC" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/tc.jsp" />  
+    </definition>
+    <definition name="alreadyregistered" extends="base.definition">  
+        <put-attribute name="title" value="Registration Done" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/alreadyregistered.jsp" />  
+    </definition>
+    <definition name="registrationsuccess" extends="base.definition">  
+        <put-attribute name="title" value="Registration Success" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/registrationsuccess.jsp" />  
+    </definition>
+     <definition name="suggest" extends="base.definition">  
+        <put-attribute name="title" value="Suggestion" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/suggest.jsp" />  
+    </definition>
+    <definition name="commentsuccess" extends="base.definition">  
+        <put-attribute name="title" value="Comment Success" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/commentsuccess.jsp" />  
+    </definition>
+    <definition name="talentedusersgrid" extends="base.definition">  
+        <put-attribute name="title" value="Talented Profiles" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/talentedusersgrid.jsp" />  
+    </definition>
+    <definition name="accountinfoinsertsuccess" extends="base.definition">  
+        <put-attribute name="title" value="Account Information  Saved" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/accountinfoinsertsuccess.jsp" />  
+    </definition>
+    
+    <definition name="jobgrid" extends="base.definition">  
+        <put-attribute name="title" value="All Jobs" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/jobgrid.jsp" />  
+    </definition>
+    
+     <definition name="profileviewby" extends="base.definition">  
+        <put-attribute name="title" value="All About You" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/profileviewby.jsp" />  
+    </definition>
+    
+    
+    <definition name="mailUser" extends="base.definition">  
+        <put-attribute name="title" value="Mail User" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/mailUser.jsp" />  
+    </definition>
+    
+    <definition name="acknowledge" extends="base.definition">  
+        <put-attribute name="title" value="Acknowledge" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/acknowledge.jsp" />  
+    </definition>
+     <definition name="viewjobselected" extends="base.definition">  
+        <put-attribute name="title" value="View Job Selected" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/viewjobselected.jsp" />  
+    </definition>
+     <definition name="appliedsuccessfully" extends="base.definition">  
+        <put-attribute name="title" value="View Job Selected" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/appliedsuccessfully.jsp" />  
+    </definition>
+    <definition name="viewjobseekerProfile" extends="base.definition">  
+        <put-attribute name="title" value="View Job Seeker" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/viewjobseekerProfile.jsp" />  
+    </definition>
+    <definition name="pingedsuccessfully" extends="base.definition">  
+        <put-attribute name="title" value="Pinged Successfully The Job Seeker" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/pingedsuccessfully.jsp" />  
+    </definition>
+    <definition name="postjobs" extends="base.definition">  
+        <put-attribute name="title" value="POST JOBS" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/postjobs.jsp" />  
+    </definition>
+    <definition name="viewjobspostedbyme" extends="base.definition">  
+        <put-attribute name="title" value="VIEW MY POSTED JOBS" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/viewjobspostedbyme.jsp" />  
+    </definition>
+    <definition name="MoredocSizeMsg" extends="base.definition">  
+        <put-attribute name="title" value="More Size make it litttle less" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/MoredocSizeMsg.jsp" />  
+    </definition>
+    <definition name="instructions" extends="base.definition">  
+        <put-attribute name="title" value="Instructions" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/instructions.jsp" />  
+    </definition>
+    <definition name="resetpasswordpage" extends="base.definition">  
+        <put-attribute name="title" value="Resetpasswordpage" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/resetpasswordpage.jsp" />  
+    </definition>
+    <definition name="showupdatespage" extends="base.definition">  
+        <put-attribute name="title" value="Show updates" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/showupdatespage.jsp" />  
+    </definition>
+    <definition name="postanupdatepage" extends="base.definition">  
+        <put-attribute name="title" value="Post an Update" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/postanupdatepage.jsp" />  
+    </definition>
+    <definition name="otherjobs" extends="base.definition">  
+        <put-attribute name="title" value="Other jobs" />  
+        <put-attribute name="body" value="/WEB-INF/jsp/otherjobs.jsp" />  
+    </definition>
+    
+    
+  
+</tiles-definitions>  
